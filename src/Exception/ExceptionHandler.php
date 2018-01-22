@@ -80,7 +80,7 @@ class ExceptionHandler extends \Illuminate\Foundation\Exceptions\Handler
                 'file'=>$exception->getFile(),
                 'line'=>$exception->getLine(),
                 'error_msg'=>$exception->getMessage(),
-                'trace'=>$exception->getTrace(),
+                //'trace'=>$exception->getTrace(),
                 'type'=>get_class($exception)
             )));
         }

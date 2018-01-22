@@ -12,7 +12,11 @@
     "autoload": {
         "psr-4": {
             "Linyuee\\": "src/"
-        }
+        },
+        "files":[
+            "Linyuee/Util/Helper.php",
+            "src/Helper.php"
+        ]
     },
     "license": "MIT",
     "authors": [

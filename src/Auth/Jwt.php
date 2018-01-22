@@ -1,4 +1,5 @@
 <?php
+namespace Linyuee\Auth;
 /**
  * Created by PhpStorm.
  * User: yuelin
@@ -11,7 +12,7 @@ class Jwt
     private static $expires = 60; //设置单次过期时间(分钟)
     private static $appExpires = 60*24*30;
 
-    public function createToken(array $session_data = array(),$type = 'app')
+    public static function createToken(array $session_data = array(),$type = 'app')
     {
 
         $session_key = guid();
