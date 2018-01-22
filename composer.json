@@ -1,0 +1,24 @@
+{
+    "name": "linyuee/api",
+    "description": "laravel restful api",
+    "version": "0.0.1",
+    "require": {
+        "php": ">=5.4",
+        "laravel/framework": ">=5.1",
+        "firebase/php-jwt": "^4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Linyuee\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linyue",
+            "email": "769353695@qq.com"
+        }
+    ]
+}
