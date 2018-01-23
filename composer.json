@@ -1,7 +1,7 @@
 {
     "name": "linyuee/api",
     "description": "laravel restful api",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "require": {
         "php": ">=5.4",
         "laravel/framework": ">=5.1",
@@ -14,8 +14,7 @@
             "Linyuee\\": "src/"
         },
         "files":[
-            "Linyuee/Util/Helper.php",
-            "src/Helper.php"
+            "src/Util/Helper.php"
         ]
     },
     "license": "MIT",
