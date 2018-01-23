@@ -43,3 +43,4 @@ class Jwt
         return ['token' => JWT::encode($data, config('app.key')), 'sk' => $secret_key];
     }
 }
+
